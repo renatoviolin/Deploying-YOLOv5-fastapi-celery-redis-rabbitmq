@@ -37,7 +37,7 @@ Input
 
 Form with enctype=multipart/form-data and imagens in attribute files. See the example in Ajax.
 
-```
+```javascript
 var form_data = new FormData();
 files = $('#input_file_form').prop('files')
 for (i = 0; i < files.length; i++)
@@ -61,7 +61,7 @@ $.ajax({
 ``` 
 
 Output: 
-```
+```json
 [
   {
     "task_id": "2b593c5c-3f0b-49c1-a145-ad613f4ecda5",
@@ -83,7 +83,7 @@ task_uid
 ``` 
 
 Output: 
-```
+```json
 {
   "task_id": "2b593c5c-3f0b-49c1-a145-ad613f4ecda5",
   "status": "PROCESSING",
@@ -102,7 +102,7 @@ Input
 task_id
 ```
 Output (if it is done):
-```
+```json
 {
   "task_id": "2b593c5c-3f0b-49c1-a145-ad613f4ecda5",
   "status": "SUCCESS",
@@ -138,7 +138,7 @@ Output (if it is done):
 }
 ```
 If it is processing:
-```
+```json
 {
   "task_id": "2b593c5c-3f0b-49c1-a145-ad613f4ecda5",
   "status": "PROCESSING",
@@ -150,8 +150,8 @@ If it is processing:
 # Install
 1. Clone this repository
 ```
-git clone https://github.com/renatoviolin/async_call.git
-cd async_call
+git clone https://github.com/renatoviolin/Deploying-YOLOv5-fastapi-celery-redis-rabbitmq.git
+cd Deploying-YOLOv5-fastapi-celery-redis-rabbitmq
 ```
 
 2. Install [docker](https://www.docker.com/get-started). If you already have, create the container with the command:
