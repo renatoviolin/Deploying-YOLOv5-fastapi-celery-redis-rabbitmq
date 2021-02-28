@@ -10,7 +10,7 @@ Since Yolo is a deep model which may take some time to return results, we will u
 - [RabbitMQ](https://www.rabbitmq.com): A message broker used to route messages between API and the workers from Celery.
 - [Redis](https://redis.io): An in-memory database to store results and process status from the tasks.
 
-The image below ilustrates the data flow from all components.
+The image below ilustrate the data flow from all components.
 <img src=img/schema.jpg>
 
 
