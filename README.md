@@ -72,7 +72,7 @@ Output:
 ```
 
 Using CURL
-```
+```bash
 curl -X POST "http://localhost:8000/api/process" -H  "accept: application/json" -H  "Content-Type: multipart/form-data" -F "files=@image.jpg;type=image/jpeg"
 ```
 
@@ -92,7 +92,7 @@ Output:
 ```
 
 Using CURL
-``` 
+```bash
 curl -X GET "http://localhost/api/status/ren123/"
 ``` 
 
@@ -149,18 +149,18 @@ If it is processing:
 
 # Install
 1. Clone this repository
-```
+```bash
 git clone https://github.com/renatoviolin/Deploying-YOLOv5-fastapi-celery-redis-rabbitmq.git
 cd Deploying-YOLOv5-fastapi-celery-redis-rabbitmq
 ```
 
 2. Install [docker](https://www.docker.com/get-started). If you already have, create the container with the command:
-``` 
+```bash
 docker-compose build
 ```
 
 3. Run all containers
-``` 
+```bash
 docker-compose up
 ```
 This will start:
